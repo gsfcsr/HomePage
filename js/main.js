@@ -2389,12 +2389,7 @@ require(['jquery'], function($) {
 			}, {
 				"title": "Github",
 				"value": "openGithub",
-				"description": "https://github.com/IcedWatermelonJuice/HMOSHomePage"
-
-			}, {
-				"title": "Gitee(可能不是最新版本)",
-				"value": "openGitee",
-				"description": "https://gitee.com/gem_xl/HMOSHomePage"
+				"description": "https://github.com/gsfcsr/HomePage"
 
 			}
 		];
