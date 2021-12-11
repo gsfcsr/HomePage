@@ -537,6 +537,10 @@ require(['jquery'], function($) {
 				"url": "https://www.epicgames.com",
 				"icon": "img/bookmarks/EPIC.png"
 			}, {
+				"name": "AirPortal",
+				"url": "https://airportal.cn",
+				"icon": "img/bookmarks/airportal.png"
+			}, {
 				"name": "起点",
 				"url": "https://www.qidian.com",
 				"icon": "img/bookmarks/qidian.png"
@@ -552,10 +556,6 @@ require(['jquery'], function($) {
 				"name": "不死鸟",
 				"url": "https://iao.su",
 				"icon": "img/bookmarks/businiao.png"
-			}, {
-				"name": "AirPortal",
-				"url": "https://airportal.cn",
-				"icon": "img/bookmarks/airportal.png"
 			}, {
 				"name": "设置",
 				"url": "openSettingPage()",
