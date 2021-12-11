@@ -539,7 +539,7 @@ require(['jquery'], function($) {
 			}, {
 				"name": "Google",
 				"url": "https://www.google.com/ncr",
-				"icon": "img/bookmarks/google.png"
+				"icon": "img/bookmarks/google3.png"
 			}, {
 				"name": "起点",
 				"url": "https://www.qidian.com",
