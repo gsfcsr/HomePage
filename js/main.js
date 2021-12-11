@@ -537,21 +537,21 @@ require(['jquery'], function($) {
 				"url": "openSettingPage()",
 				"icon": "img/bookmarks/settings.png"
 			}, {
-				"name": "翻译",
-				"url": "https://translate.google.cn",
-				"icon": "img/bookmarks/translate.png"
+				"name": "Google",
+				"url": "https://www.google.com/ncr",
+				"icon": "img/bookmarks/google.png"
 			}, {
-				"name": "CSDN",
-				"url": "https://csdn.net",
-				"icon": "img/bookmarks/csdn.png"
+				"name": "起点",
+				"url": "https://www.qidian.com",
+				"icon": "img/bookmarks/qidian.png"
 			}, {
-				"name": "Github",
-				"url": "https://github.com",
-				"icon": "img/bookmarks/github.png"
+				"name": "Steam",
+				"url": "https://store.steampowered.com/",
+				"icon": "img/bookmarks/Steam.png"
 			}, {
-				"name": "Gitee",
-				"url": "https://gitee.com",
-				"icon": "img/bookmarks/gitee.png"
+				"name": "EPIC",
+				"url": "https://www.epicgames.com",
+				"icon": "img/bookmarks/EPIC.png"
 			}, {
 				"name": "抖音",
 				"url": "https://douyin.com",
