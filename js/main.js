@@ -546,7 +546,7 @@ require(['jquery'], function($) {
 				"icon": "img/bookmarks/longkong.png"
 			}, {
 				"name": "源仓库",
-				"url": "https://www.yckceo.com",
+				"url": "http://www.yckceo.com",
 				"icon": "img/bookmarks/yuan.png"
 			}, {
 				"name": "不死鸟",
