@@ -525,25 +525,9 @@ require(['jquery'], function($) {
 				"url": "choice()",
 				"icon": "img/bookmarks/discover.png"
 			}, {
-				"name": "AirPortal",
-				"url": "https://airportal.cn",
-				"icon": "img/bookmarks/airportal.png"
-			}, {
-				"name": "扫一扫",
-				"url": "https://www.the-qrcode-generator.com/scan",
-				"icon": "img/bookmarks/qrscan.png"
-			}, {
-				"name": "设置",
-				"url": "openSettingPage()",
-				"icon": "img/bookmarks/settings.png"
-			}, {
 				"name": "Google",
 				"url": "https://www.google.com/ncr",
 				"icon": "img/bookmarks/google4.png"
-			}, {
-				"name": "起点",
-				"url": "https://www.qidian.com",
-				"icon": "img/bookmarks/qidian.png"
 			}, {
 				"name": "Steam",
 				"url": "https://store.steampowered.com/",
@@ -553,21 +537,29 @@ require(['jquery'], function($) {
 				"url": "https://www.epicgames.com",
 				"icon": "img/bookmarks/EPIC.png"
 			}, {
-				"name": "抖音",
-				"url": "https://douyin.com",
-				"icon": "img/bookmarks/douyin.png"
+				"name": "起点",
+				"url": "https://www.qidian.com",
+				"icon": "img/bookmarks/qidian.png"
 			}, {
-				"name": "B站",
-				"url": "https://bilibili.com",
-				"icon": "img/bookmarks/bilibili.png"
+				"name": "龙空",
+				"url": "https://www.lkong.net",
+				"icon": "img/bookmarks/longkong.png"
 			}, {
-				"name": "爱奇艺",
-				"url": "https://iqiyi.com",
-				"icon": "img/bookmarks/iqiyi.png"
+				"name": "源仓库",
+				"url": "https://www.yckceo.com",
+				"icon": "img/bookmarks/yuan.png"
 			}, {
-				"name": "腾讯视频",
-				"url": "https://v.qq.com",
-				"icon": "img/bookmarks/tencentvideo.png"
+				"name": "不死鸟",
+				"url": "https://iao.su",
+				"icon": "img/bookmarks/businiao.png"
+			}, {
+				"name": "AirPortal",
+				"url": "https://airportal.cn",
+				"icon": "img/bookmarks/airportal.png"
+			}, {
+				"name": "设置",
+				"url": "openSettingPage()",
+				"icon": "img/bookmarks/settings.png"
 			}],
 		};
 		this.intiOptions = this.options;
