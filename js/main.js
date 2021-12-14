@@ -126,9 +126,9 @@ require(['jquery'], function($) {
 				logoUrl = this.get('logo');
 			} else {
 				if (this.get('nightMode')) {
-					logoUrl = "logo/Logo_google2.png";
+					logoUrl = "logo/Logo_google3.png";
 				} else {
-					logoUrl = "logo/Logo_google2.png";
+					logoUrl = "logo/Logo_google3.png";
 				}
 			}
 			if (this.get('LogoHeightSet')) {
@@ -139,7 +139,7 @@ require(['jquery'], function($) {
 			var newcss = {
 				'height': logoHeight + 'px',
 				'background': 'url("' + logoUrl + '") no-repeat',
-				'background-size': "auto 200%",
+				'background-size': "auto 100%",
 				'background-position': 'center',
 			};
 			return newcss;
