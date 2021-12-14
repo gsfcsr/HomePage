@@ -61,7 +61,7 @@ require(['jquery'], function($) {
 		this.storage = {
 			engines: "baidu",
 			bookcolor: "black",
-			booknumber: "Num4",
+			booknumber: "Num5",
 			LOGOclickFn: "choicePage",
 			LOGOlongpressFn: "settingsPage",
 			LogoHeightSet: "40",
@@ -126,9 +126,9 @@ require(['jquery'], function($) {
 				logoUrl = this.get('logo');
 			} else {
 				if (this.get('nightMode')) {
-					logoUrl = "logo/HarmonyOS_logo(for nightMode).png";
+					logoUrl = "logo/Logo_google.png";
 				} else {
-					logoUrl = "logo/HarmonyOS_logo.png";
+					logoUrl = "logo/Logo_google.png";
 				}
 			}
 			if (this.get('LogoHeightSet')) {
