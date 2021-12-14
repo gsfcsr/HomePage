@@ -64,7 +64,7 @@ require(['jquery'], function($) {
 			booknumber: "Num5",
 			LOGOclickFn: "choicePage",
 			LOGOlongpressFn: "settingsPage",
-			LogoHeightSet: "71",
+			LogoHeightSet: "40",
 			position: "0",
 			styleThin: true,
 			searchHistory: false,
@@ -134,7 +134,7 @@ require(['jquery'], function($) {
 			if (this.get('LogoHeightSet')) {
 				logoHeight = this.get('LogoHeightSet');
 			} else {
-				logoHeight = "40";
+				logoHeight = "71";
 			}
 			var newcss = {
 				'height': logoHeight + 'px',
