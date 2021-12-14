@@ -139,7 +139,7 @@ require(['jquery'], function($) {
 			var newcss = {
 				'height': logoHeight + 'px',
 				'background': 'url("' + logoUrl + '") no-repeat',
-				'background-size': "auto 100%",
+				'background-size': "auto 200%",
 				'background-position': 'center',
 			};
 			return newcss;
