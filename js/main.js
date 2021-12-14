@@ -354,7 +354,7 @@ require(['jquery'], function($) {
 			let LogoOBJ = document.getElementsByClassName("logo")[0];
 			let logoHeight = LogoOBJ.clientHeight.toString();
 			if (logoHeight !== settingHeight) {
-				if (settingHeight === "40") {
+				if (settingHeight === "71") {
 					LogoOBJ.style.height = "";
 				} else {
 					LogoOBJ.style.height = settingHeight + "px";
