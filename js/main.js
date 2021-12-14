@@ -64,7 +64,7 @@ require(['jquery'], function($) {
 			booknumber: "Num5",
 			LOGOclickFn: "choicePage",
 			LOGOlongpressFn: "settingsPage",
-			LogoHeightSet: "71",
+			LogoHeightSet: "98",
 			position: "0",
 			styleThin: true,
 			searchHistory: false,
@@ -77,7 +77,7 @@ require(['jquery'], function($) {
 			customJsCss: false
 		};
 		var defaultLogoHeight = Math.floor($(".logo").width() * (84 / 436));
-		this.storage.LogoHeightSet = defaultLogoHeight < 40 ? String(defaultLogoHeight) : "71";
+		this.storage.LogoHeightSet = defaultLogoHeight < 40 ? String(defaultLogoHeight) : "98";
 		var extraStorage = {};
 		if (browser === 'via') {
 			extraStorage = {
@@ -126,15 +126,15 @@ require(['jquery'], function($) {
 				logoUrl = this.get('logo');
 			} else {
 				if (this.get('nightMode')) {
-					logoUrl = "logo/Logo_google.png";
+					logoUrl = "logo/2022.png";
 				} else {
-					logoUrl = "logo/Logo_google.png";
+					logoUrl = "logo/2022.png";
 				}
 			}
 			if (this.get('LogoHeightSet')) {
 				logoHeight = this.get('LogoHeightSet');
 			} else {
-				logoHeight = "71";
+				logoHeight = "98";
 			}
 			var newcss = {
 				'height': logoHeight + 'px',
@@ -354,7 +354,7 @@ require(['jquery'], function($) {
 			let LogoOBJ = document.getElementsByClassName("logo")[0];
 			let logoHeight = LogoOBJ.clientHeight.toString();
 			if (logoHeight !== settingHeight) {
-				if (settingHeight === "71") {
+				if (settingHeight === "98") {
 					LogoOBJ.style.height = "";
 				} else {
 					LogoOBJ.style.height = settingHeight + "px";
