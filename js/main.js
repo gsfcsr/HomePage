@@ -128,7 +128,7 @@ require(['jquery'], function($) {
 				if (this.get('nightMode')) {
 					logoUrl = "logo/HarmonyOS_logo(for nightMode).png";
 				} else {
-					logoUrl = "logo/HarmonyOS_logo.png.png";
+					logoUrl = "logo/HarmonyOS_logo.png";
 				}
 			}
 			if (this.get('LogoHeightSet')) {
