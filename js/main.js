@@ -126,9 +126,9 @@ require(['jquery'], function($) {
 				logoUrl = this.get('logo');
 			} else {
 				if (this.get('nightMode')) {
-					logoUrl = "logo/Logo_google3.png";
+					logoUrl = "logo/HarmonyOS_logo(for nightMode).png";
 				} else {
-					logoUrl = "logo/Logo_google3.png";
+					logoUrl = "logo/HarmonyOS_logo.png.png";
 				}
 			}
 			if (this.get('LogoHeightSet')) {
