@@ -64,7 +64,7 @@ require(['jquery'], function($) {
 			booknumber: "Num5",
 			LOGOclickFn: "choicePage",
 			LOGOlongpressFn: "settingsPage",
-			LogoHeightSet: "40",
+			LogoHeightSet: "71",
 			position: "0",
 			styleThin: true,
 			searchHistory: false,
@@ -77,7 +77,7 @@ require(['jquery'], function($) {
 			customJsCss: false
 		};
 		var defaultLogoHeight = Math.floor($(".logo").width() * (84 / 436));
-		this.storage.LogoHeightSet = defaultLogoHeight < 40 ? String(defaultLogoHeight) : "40";
+		this.storage.LogoHeightSet = defaultLogoHeight < 40 ? String(defaultLogoHeight) : "71";
 		var extraStorage = {};
 		if (browser === 'via') {
 			extraStorage = {
