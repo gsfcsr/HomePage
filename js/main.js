@@ -546,7 +546,7 @@ require(['jquery'], function($) {
 				"icon": "img/bookmarks/qidian.png"
 			}, {
 				"name": "龙空",
-				"url": "https://www.lkong.net",
+				"url": "https://www.lkong.com",
 				"icon": "img/bookmarks/longkong.png"
 			}, {
 				"name": "源仓库",
@@ -2552,7 +2552,7 @@ require(['jquery'], function($) {
 			} else if (value === "aboutVersion") {
 				getnewVersion();
 				let alertMessage = '当前版本: ' + app.version + '\n最新版本: ' + getnewVersion() +
-					'\n本作作者: IcedWatermelonJuice\n原作作者: liumingye\n联系邮箱: gem_xl@petalmail.com';
+					'\n本作作者: gsfcsr\n原作作者: liumingye、IcedWatermelonJuice\n联系邮箱: gsfcsr@gmail.com';
 				alert(alertMessage);
 			} else if (value === "export") {
 				var oInput = $('<input>');
