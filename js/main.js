@@ -128,7 +128,7 @@ require(['jquery'], function($) {
 				if (this.get('nightMode')) {
 					logoUrl = "logo/Logo_google.png";
 				} else {
-					logoUrl = "logo/Logo_2022.png";
+					logoUrl = "logo/Logo_google.png";
 				}
 			}
 			if (this.get('LogoHeightSet')) {
