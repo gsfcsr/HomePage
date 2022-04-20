@@ -126,7 +126,7 @@ require(['jquery'], function($) {
 				logoUrl = this.get('logo');
 			} else {
 				if (this.get('nightMode')) {
-					logoUrl = "logo/Logo_2022.png";
+					logoUrl = "logo/Logo_2022_N.png";
 				} else {
 					logoUrl = "logo/Logo_2022.png";
 				}
